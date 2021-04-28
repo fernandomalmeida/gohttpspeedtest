@@ -8,13 +8,13 @@ Currently, GoHTTPSpeedTest support Ookla's https://www.speedtest.net/ and Netfli
 
 To install GoHTTPSpeedTest, you can use go get command:
 
-```
+```shell
 $ go get github.com/fernandomalmeida/gohttpspeedtest
 ```
 
 ## Usage
 
-```
+```go
 import "github.com/fernandomalmeida/gohttpspeedtest"
 
 fastProvider, _ := gohttpspeedtest.FastProvider() // or
@@ -26,20 +26,20 @@ downloadSpeed, uploadSpeed, _ := MeasureDownloadAndUpload(provider)
 
 ## CLI installation
 
-```
+```shell
 $ go get github.com/fernandomalmeida/gohttpspeedtest/cmd/gohttpspeedtest
 ```
 
 ## CLI usage
 
-```
+```shell
 $ gohttpspeedtest fast # or
 $ gohttpspeedtest ookla
 ```
 
 ## Current test coverage
 
-```
+```shell
 $ go test -cover .
 ok      github.com/fernandomalmeida/gohttpspeedtest     0.802s  coverage: 93.4% of statements
 ```
