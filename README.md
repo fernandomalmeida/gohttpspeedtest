@@ -37,6 +37,13 @@ $ gohttpspeedtest fast # or
 $ gohttpspeedtest ookla
 ```
 
+## Current test coverage
+
+```
+$ go test -cover .
+ok      github.com/fernandomalmeida/gohttpspeedtest     0.802s  coverage: 93.4% of statements
+```
+
 ## License
 
 MIT
